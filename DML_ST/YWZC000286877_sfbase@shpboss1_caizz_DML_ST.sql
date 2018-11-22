@@ -1,94 +1,94 @@
---ĞÂÔöÆóÒµ»¥ÁªÍøµçÊÓÈÚºÏµÄÁ÷³ÌÄ£°å
---ĞÂ×° 
+--åŠ¤è—¤íæ’šë¹³ì ¬è²¢ë“ æŸ¬íœ¨ë¶ë¨ì§ë„‹ì¹œê²¼
+--åŠ¤é™‹ 
 insert into sfbase.sf_busitemp_gene_rel(REL_ID,TEMPLATE_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('40000300','180180','90005','','U','ÆóÒµ»¥ÁªÍøµçÊÓÈÚºÏÊÜÀí¶¨µ¥Òò×Ó');
+values('40000300','180180','90005','','U','íæ’šë¹³ì ¬è²¢ë“ æŸ¬íœ¨ë¶è‚ì¿ë•ë°ï¥”ç¶¾');
 insert into sfbase.sf_busitemp_wf_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.sf_busitemp_wf_cond$seq.nextval,'40000300','40000300','true','U','ÆóÒµ»¥ÁªÍøµçÊÓÈÚºÏÊÜÀí¶¨µ¥Òò×Ó');
+values(sfbase.sf_busitemp_wf_cond$seq.nextval,'40000300','40000300','true','U','íæ’šë¹³ì ¬è²¢ë“ æŸ¬íœ¨ë¶è‚ì¿ë•ë°ï¥”ç¶¾');
 insert into sfbase.sf_busitemp_wf_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.sf_busitemp_wf_cond$seq.nextval,'40000300','40000100','Y','U','ÆóÒµ»¥ÁªÍøµçÊÓÈÚºÏÊÜÀí¶¨µ¥Òò×Ó');
+values(sfbase.sf_busitemp_wf_cond$seq.nextval,'40000300','40000100','Y','U','íæ’šë¹³ì ¬è²¢ë“ æŸ¬íœ¨ë¶è‚ì¿ë•ë°ï¥”ç¶¾');
 insert into sfbase.sf_busitemp_wf_rel(REL_ID,TEMPLATE_ID,WF_TEMPLATE_ID,STATE,REMARKS)
-values('40000300','180180','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','U','ÆóÒµ»¥ÁªÍøµçÊÓ¹ØÁª¾Æµê¿í´øÈÚºÏÊÜÀíĞÂ×°');
---²ğ»ú  
+values('40000300','180180','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','U','íæ’šë¹³ì ¬è²¢ë“ æŸ¬ë°‘ì ¬ì•„ë“¦ìš±ë˜íœ¨ë¶è‚ì¿åŠ¤é™‹');
+--ë€”ìƒ™  
 insert into sfbase.sf_busitemp_gene_rel(REL_ID,TEMPLATE_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('40000400','180181','90005','','U','ÆóÒµ»¥ÁªÍøµçÊÓÈÚºÏÊÜÀí¶¨µ¥Òò×Ó');
+values('40000400','180181','90005','','U','íæ’šë¹³ì ¬è²¢ë“ æŸ¬íœ¨ë¶è‚ì¿ë•ë°ï¥”ç¶¾');
 insert into sfbase.sf_busitemp_wf_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.sf_busitemp_wf_cond$seq.nextval,'40000400','40000400','true','U','ÆóÒµ»¥ÁªÍøµçÊÓÈÚºÏÊÜÀí¶¨µ¥Òò×Ó');
+values(sfbase.sf_busitemp_wf_cond$seq.nextval,'40000400','40000400','true','U','íæ’šë¹³ì ¬è²¢ë“ æŸ¬íœ¨ë¶è‚ì¿ë•ë°ï¥”ç¶¾');
 insert into sfbase.sf_busitemp_wf_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.sf_busitemp_wf_cond$seq.nextval,'40000400','40000100','Y','U','ÆóÒµ»¥ÁªÍøµçÊÓÈÚºÏÊÜÀí¶¨µ¥Òò×Ó');
+values(sfbase.sf_busitemp_wf_cond$seq.nextval,'40000400','40000100','Y','U','íæ’šë¹³ì ¬è²¢ë“ æŸ¬íœ¨ë¶è‚ì¿ë•ë°ï¥”ç¶¾');
 insert into sfbase.sf_busitemp_wf_rel(REL_ID,TEMPLATE_ID,WF_TEMPLATE_ID,STATE,REMARKS)
-values('40000400','180181','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','U','ÆóÒµ»¥ÁªÍøµçÊÓ¹ØÁª¾Æµê¿í´øÈÚºÏÊÜÀí²ğ»ú');
---ÈÚºÏÊıÁ¿ÊôĞÔ£¬ĞÂÔö£¬ftto¾²Ì¬£¬fttb¾²Ì¬£¬fttb¶¯Ì¬²ğ
+values('40000400','180181','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','U','íæ’šë¹³ì ¬è²¢ë“ æŸ¬ë°‘ì ¬ì•„ë“¦ìš±ë˜íœ¨ë¶è‚ì¿ë€”ìƒ™');
+--íœ¨ë¶é‘’ì¢†æ©„æ˜‘ï¼ŒåŠ¤è—¤ï¼Œfttoì“°æª„ï¼Œfttbì“°æª„ï¼Œfttbë•¡æª„ë€”
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 130001, 206402, '', 'constraintId', '', null, '', 'U', 'fttoKDTĞÂ×°');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 130001, 206402, '', 'constraintId', '', null, '', 'U', 'fttoKDTåŠ¤é™‹');
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 130002, 206402, '', 'constraintId', '', null, '', 'U', 'fttoKDT²ğ»ú');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 130002, 206402, '', 'constraintId', '', null, '', 'U', 'fttoKDTë€”ìƒ™');
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 130001, 206401, '', 'groupAmount', '', null, '', 'U', 'fttoKDTĞÂ×°');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 130001, 206401, '', 'groupAmount', '', null, '', 'U', 'fttoKDTåŠ¤é™‹');
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 130002, 206401, '', 'groupAmount', '', null, '', 'U', 'fttoKDT²ğ»ú');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 130002, 206401, '', 'groupAmount', '', null, '', 'U', 'fttoKDTë€”ìƒ™');
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 460031, 206401, '', 'groupAmount', '', null, '', 'U', 'fttb_EGU²ğ»ú');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 460031, 206401, '', 'groupAmount', '', null, '', 'U', 'fttb_EGUë€”ìƒ™');
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 460031, 206402, '', 'constraintId', '', null, '', 'U', 'fttb_EGU²ğ»ú');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 460031, 206402, '', 'constraintId', '', null, '', 'U', 'fttb_EGUë€”ìƒ™');
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 170010, 206402, '', 'constraintId', '', null, '', 'U', 'CMNET¿í´øÍ¨(PON)ĞÂ×°');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 170010, 206402, '', 'constraintId', '', null, '', 'U', 'CMNETìš±ë˜ç¹«(PON)åŠ¤é™‹');
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 170011, 206402, '', 'constraintId', '', null, '', 'U', 'CMNET¿í´øÍ¨(PON)²ğ»ú');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 170011, 206402, '', 'constraintId', '', null, '', 'U', 'CMNETìš±ë˜ç¹«(PON)ë€”ìƒ™');
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 170010, 206401, '', 'groupAmount', '', null, '', 'U', 'CMNET¿í´øÍ¨(PON)ĞÂ×°');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 170010, 206401, '', 'groupAmount', '', null, '', 'U', 'CMNETìš±ë˜ç¹«(PON)åŠ¤é™‹');
 insert into sfbase.sf_busitemp_attr_rel (REL_ID, TEMPLATE_ID, ATTR_ID, REL_TYPE, MAP_CODE, MAP_EXP, IMPL_ID, IS_DISPLAY, STATE, REMARKS)
-values (sfbase.sf_busitemp_attr_rel$seq.nextval, 170011, 206401, '', 'groupAmount', '', null, '', 'U', 'CMNET¿í´øÍ¨(PON)²ğ»ú');
+values (sfbase.sf_busitemp_attr_rel$seq.nextval, 170011, 206401, '', 'groupAmount', '', null, '', 'U', 'CMNETìš±ë˜ç¹«(PON)ë€”ìƒ™');
 
---Ê©¹¤µ¥£¬´òÓ¡µ¥
---ftto,¶¯Ì¬.¾²Ì¬£¬EGUĞÂ×°
+--å˜‰ë¬ë°ï¼ŒëŒ”ä¸¹ë°
+--ftto,ë•¡æª„.ì“°æª„ï¼ŒEGUåŠ¤é™‹
 insert into sfbase.wf_totemp_print_gene (REL_ID,TO_TEMP_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('30200','30100','90005','10','U','¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ) ADD BY CZ 20181122');
+values('30200','30100','90005','10','U','ì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ) ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_gene (REL_ID,TO_TEMP_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('30201','30100','2416','10','U','¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ) ADD BY CZ 20181122');
+values('30201','30100','2416','10','U','ì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ) ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.wf_totemp_print_cond$seq.nextval,'40100','30200','true','U','¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ) ADD BY CZ 20181122');
+values(sfbase.wf_totemp_print_cond$seq.nextval,'40100','30200','true','U','ì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ) ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.wf_totemp_print_cond$seq.nextval,'40100','30201','ÊÇ','U','¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ) ADD BY CZ 20181122');
+values(sfbase.wf_totemp_print_cond$seq.nextval,'40100','30201','è§’','U','ì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ) ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_rel (REL_ID,TO_TEMP_ID,PRINT_RORM_CODE,STATE,REMARKS)
-values('40100','30100','SH_GROUP_HSWJD_OUTLINE_PRINT|SH_GROUP_HSWJD_OUTLINE_PRINT_2','U','¾Æµê°æ¿í´øÈÚºÏÊÜÀíĞÂ×°´òÓ¡µ¥ ADD BY CZ 20181122');
+values('40100','30100','SH_GROUP_HSWJD_OUTLINE_PRINT|SH_GROUP_HSWJD_OUTLINE_PRINT_2','U','ì•„ë“¦ê²½ìš±ë˜íœ¨ë¶è‚ì¿åŠ¤é™‹ëŒ”ä¸¹ë° ADD BY CZ 20181122');
 
---¾²Ì¬fttb,NEW
+--ì“°æª„fttb,NEW
 insert into sfbase.wf_totemp_print_gene (REL_ID,TO_TEMP_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('30202','160008','90005','10','U','FTTB_KDT¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ) ADD BY CZ 20181122');
+values('30202','160008','90005','10','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ) ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_gene (REL_ID,TO_TEMP_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('30203','160008','2416','10','U','FTTB_KDT¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ) ADD BY CZ 20181122');
+values('30203','160008','2416','10','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ) ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.wf_totemp_print_cond$seq.nextval,'40101','30202','true','U','FTTB_KDT¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ) ADD BY CZ 20181122');
+values(sfbase.wf_totemp_print_cond$seq.nextval,'40101','30202','true','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ) ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.wf_totemp_print_cond$seq.nextval,'40101','30203','ÊÇ','U','FTTB_KDT¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ) ADD BY CZ 20181122');
+values(sfbase.wf_totemp_print_cond$seq.nextval,'40101','30203','è§’','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ) ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_rel (REL_ID,TO_TEMP_ID,PRINT_RORM_CODE,STATE,REMARKS)
-values('40101','160008','SH_GROUP_HSWJD_OUTLINE_PRINT|SH_GROUP_HSWJD_OUTLINE_PRINT_2','U','FTTB_KDT¾Æµê°æÈÚºÏ´òÓ¡µ¥ ADD BY CZ 20181122');
+values('40101','160008','SH_GROUP_HSWJD_OUTLINE_PRINT|SH_GROUP_HSWJD_OUTLINE_PRINT_2','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ëŒ”ä¸¹ë° ADD BY CZ 20181122');
 
---ftto,¶¯Ì¬.¾²Ì¬£¬EGU²ğ»ú
+--ftto,ë•¡æª„.ì“°æª„ï¼ŒEGUë€”ìƒ™
 insert into sfbase.wf_totemp_print_gene (REL_ID,TO_TEMP_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('30204','30102','90005','10','U','¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ)²ğ ADD BY CZ 20181122');
+values('30204','30102','90005','10','U','ì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ)ë€” ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_gene (REL_ID,TO_TEMP_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('30205','30102','2416','10','U','¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ)²ğ ADD BY CZ 20181122');
+values('30205','30102','2416','10','U','ì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ)ë€” ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.wf_totemp_print_cond$seq.nextval,'40102','30204','true','U','¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ)²ğ ADD BY CZ 20181122');
+values(sfbase.wf_totemp_print_cond$seq.nextval,'40102','30204','true','U','ì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ)ë€” ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.wf_totemp_print_cond$seq.nextval,'40102','30205','ÊÇ','U','¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ)²ğ ADD BY CZ 20181122');
+values(sfbase.wf_totemp_print_cond$seq.nextval,'40102','30205','è§’','U','ì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ)ë€” ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_rel (REL_ID,TO_TEMP_ID,PRINT_RORM_CODE,STATE,REMARKS)
-values('40102','30102','SH_GROUP_HSWJD_OUTLINE_PRINT|SH_GROUP_HSWJD_OUTLINE_PRINT_2','U','¾Æµê°æÈÚºÏ²ğ»ú´òÓ¡µ¥ ADD BY CZ 20181122');
+values('40102','30102','SH_GROUP_HSWJD_OUTLINE_PRINT|SH_GROUP_HSWJD_OUTLINE_PRINT_2','U','ì•„ë“¦ê²½íœ¨ë¶ë€”ìƒ™ëŒ”ä¸¹ë° ADD BY CZ 20181122');
 
---¾²Ì¬fttb,remove
+--ì“°æª„fttb,remove
 insert into sfbase.wf_totemp_print_gene (REL_ID,TO_TEMP_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('30206','160009','90005','10','U','FTTB_KDT¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ)²ğ ADD BY CZ 20181122');
+values('30206','160009','90005','10','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ)ë€” ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_gene (REL_ID,TO_TEMP_ID,GENE_ID,PRIORITY,STATE,REMARKS)
-values('30207','160009','2416','10','U','FTTB_KDT¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ)²ğ ADD BY CZ 20181122');
+values('30207','160009','2416','10','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ)ë€” ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.wf_totemp_print_cond$seq.nextval,'40103','30206','true','U','FTTB_KDT¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ)²ğ ADD BY CZ 20181122');
+values(sfbase.wf_totemp_print_cond$seq.nextval,'40103','30206','true','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ)ë€” ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_cond(COND_ID,REL_ID,G_REL_ID,GENE_VALUE,STATE,REMARKS)
-values(sfbase.wf_totemp_print_cond$seq.nextval,'40103','30207','ÊÇ','U','FTTB_KDT¾Æµê°æÈÚºÏ¶¨µ¥-ÍâÏßÊ©¹¤(¼¯ÍÅ)²ğ ADD BY CZ 20181122');
+values(sfbase.wf_totemp_print_cond$seq.nextval,'40103','30207','è§’','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ë•ë°-æ£çªŸå˜‰ë¬(ì„è€ƒ)ë€” ADD BY CZ 20181122');
 insert into sfbase.wf_totemp_print_rel (REL_ID,TO_TEMP_ID,PRINT_RORM_CODE,STATE,REMARKS)
-values('40103','160009','SH_GROUP_HSWJD_OUTLINE_PRINT|SH_GROUP_HSWJD_OUTLINE_PRINT_2','U','FTTB_KDT¾Æµê°æÈÚºÏ´òÓ¡µ¥ ADD BY CZ 20181122');
+values('40103','160009','SH_GROUP_HSWJD_OUTLINE_PRINT|SH_GROUP_HSWJD_OUTLINE_PRINT_2','U','FTTB_KDTì•„ë“¦ê²½íœ¨ë¶ëŒ”ä¸¹ë° ADD BY CZ 20181122');
 
-----¾Æµê°æ¿í´øºÍÆóÒµ»¥ÁªÍøµçÊÓÈÚºÏ£¬¿ØÖÆĞÂ×°£¬²ğ»úË³Ğò
+----ì•„ë“¦ê²½ìš±ë˜ëµ¨íæ’šë¹³ì ¬è²¢ë“ æŸ¬íœ¨ë¶ï¼Œì™ é½¡åŠ¤é™‹ï¼Œë€”ìƒ™ç³ åŸ¼
 --ftto_bgu
 insert into sfbase.sf_order_constr(TEAM_GROUP,PROD_CODE,BUSI_TYPE,WF_TEMPLATE_CODE,TASK_TEMPLATE_CODE,TEAMWORK_TYPE,STATE)
 values('6','106000090173','NEW','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','sh.irms.construct','2','U');
@@ -99,7 +99,7 @@ values('7','106000090171','REMOVE','template.normal.NORMALZJ_FTTO_BGU_UNINSTALL'
 insert into sfbase.sf_order_constr(TEAM_GROUP,PROD_CODE,BUSI_TYPE,WF_TEMPLATE_CODE,TASK_TEMPLATE_CODE,TEAMWORK_TYPE,STATE)
 values('7','106000090173','REMOVE','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','sh.irms.construct.uninstall','3','U');
 
---ftto¾²Ì¬
+--fttoì“°æª„
 insert into sfbase.sf_order_constr(TEAM_GROUP,PROD_CODE,BUSI_TYPE,WF_TEMPLATE_CODE,TASK_TEMPLATE_CODE,TEAMWORK_TYPE,STATE)
 values('8','106000090173','NEW','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','sh.irms.construct','2','U');
 insert into sfbase.sf_order_constr(TEAM_GROUP,PROD_CODE,BUSI_TYPE,WF_TEMPLATE_CODE,TASK_TEMPLATE_CODE,TEAMWORK_TYPE,STATE)
@@ -118,7 +118,7 @@ insert into sfbase.sf_order_constr(TEAM_GROUP,PROD_CODE,BUSI_TYPE,WF_TEMPLATE_CO
 values('11','106000090175','REMOVE','template.normal.NORMALZJ_FTTB_EGU_UNINSTALL','sh.irms.construct.uninstall','2','U');
 insert into sfbase.sf_order_constr(TEAM_GROUP,PROD_CODE,BUSI_TYPE,WF_TEMPLATE_CODE,TASK_TEMPLATE_CODE,TEAMWORK_TYPE,STATE)
 values('11','106000090173','REMOVE','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','sh.irms.construct.uninstall','3','U');
---fttb¾²Ì¬
+--fttbì“°æª„
 insert into sfbase.sf_order_constr(TEAM_GROUP,PROD_CODE,BUSI_TYPE,WF_TEMPLATE_CODE,TASK_TEMPLATE_CODE,TEAMWORK_TYPE,STATE)
 values('12','106000090173','NEW','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','sh.irms.construct','2','U');
 insert into sfbase.sf_order_constr(TEAM_GROUP,PROD_CODE,BUSI_TYPE,WF_TEMPLATE_CODE,TASK_TEMPLATE_CODE,TEAMWORK_TYPE,STATE)
@@ -128,45 +128,45 @@ values('13','106000090164','REMOVE','template.normal.ZQ_NORMALZJ_FTTO_UNINSTALLL
 insert into sfbase.sf_order_constr(TEAM_GROUP,PROD_CODE,BUSI_TYPE,WF_TEMPLATE_CODE,TASK_TEMPLATE_CODE,TEAMWORK_TYPE,STATE)
 values('13','106000090167','REMOVE','template.normal.ZQ_NORMAL_CMNET_KDT_UNINSTALL','sh.irms.construct.uninstall','3','U');
 
---ÆóÒµ»¥ÁªÍøµçÊÓĞÂÔöÄ£°åµÄÒì³£Á÷³Ì
+--íæ’šë¹³ì ¬è²¢ë“ æŸ¬åŠ¤è—¤ì¹œê²¼ë¨å«©ë½ì§ë„‹
 insert into sfbase.vm_exception_rule (exception_rule_id,exception_desc_code,current_template_tag,next_template_tag,exception_rule_remarks,create_date,state)
-values(sfbase.vm_exception_rule$seq.nextval,'EXC_CONFRM_IRMS','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','template.normal.NORMALZJ_COMMON_CANCEL','¾Æµê°æÈÚºÏÊÜÀíµçÊÓÁ÷³Ì-IRMSÒì³£','','U');
+values(sfbase.vm_exception_rule$seq.nextval,'EXC_CONFRM_IRMS','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','template.normal.NORMALZJ_COMMON_CANCEL','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿ë“ æŸ¬ì§ë„‹-IRMSå«©ë½','','U');
 insert into sfbase.vm_exception_rule (exception_rule_id,exception_desc_code,current_template_tag,next_template_tag,exception_rule_remarks,create_date,state)
-values(sfbase.vm_exception_rule$seq.nextval,'G_ORDER_CANCEL_3','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','template.normal.NORMALZJ_COMMON_CANCEL','¾Æµê°æÈÚºÏÊÜÀíµçÊÓÁ÷³Ì-IRMSÒì³£»Øµ¥_¼¯ÍÅ³·µ¥','','U');
+values(sfbase.vm_exception_rule$seq.nextval,'G_ORDER_CANCEL_3','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','template.normal.NORMALZJ_COMMON_CANCEL','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿ë“ æŸ¬ì§ë„‹-IRMSå«©ë½ì€¼ë°_ì„è€ƒë‚®ë°','','U');
 insert into sfbase.vm_exception_rule (exception_rule_id,exception_desc_code,current_template_tag,next_template_tag,exception_rule_remarks,create_date,state)
-values(sfbase.vm_exception_rule$seq.nextval,'EXC_TV_CMS','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','template.normal.NORMAL_ACC_IRMS_CMS2_OUTCT','¾Æµê°æÈÚºÏÊÜÀíµçÊÓÁ÷³Ì-CMS¼øÈ¨Ê§°Ü','','U');
+values(sfbase.vm_exception_rule$seq.nextval,'EXC_TV_CMS','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','template.normal.NORMAL_ACC_IRMS_CMS2_OUTCT','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿ë“ æŸ¬ì§ë„‹-CMSìˆœí™ˆå‘µê²¨','','U');
 insert into sfbase.vm_exception_rule (exception_rule_id,exception_desc_code,current_template_tag,next_template_tag,exception_rule_remarks,create_date,state)
-values(sfbase.vm_exception_rule$seq.nextval,'CANCEL_OUT_WAIT_1','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','template.normal.NORMALZJ_COMMON_RESCOMP_CANCEL','¾Æµê°æÈÚºÏÊÜÀíµçÊÓÁ÷³Ì-ÍâÏßµÈ´ı³·µ¥','','U');
+values(sfbase.vm_exception_rule$seq.nextval,'CANCEL_OUT_WAIT_1','template.normal.NORMAL_ACC_IRMS_CMS_OUTCT_WAIT','template.normal.NORMALZJ_COMMON_RESCOMP_CANCEL','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿ë“ æŸ¬ì§ë„‹-æ£çªŸëœë¤ë‚®ë°','','U');
 
 
 insert into sfbase.vm_exception_rule (exception_rule_id,exception_desc_code,current_template_tag,next_template_tag,exception_rule_remarks,create_date,state)
-values(sfbase.vm_exception_rule$seq.nextval,'G_ORDER_CHANGE','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','¾Æµê°æÈÚºÏÊÜÀíµçÊÓÁ÷³Ì-¸Äµ¥','','U');
+values(sfbase.vm_exception_rule$seq.nextval,'G_ORDER_CHANGE','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿ë“ æŸ¬ì§ë„‹-ë§£ë°','','U');
 insert into sfbase.vm_exception_rule (exception_rule_id,exception_desc_code,current_template_tag,next_template_tag,exception_rule_remarks,create_date,state)
-values(sfbase.vm_exception_rule$seq.nextval,'EXC_CONFRM_IRMS','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','template.normal.NORMALZJ_COMMON_CANCEL','¾Æµê°æÈÚºÏÊÜÀíµçÊÓÁ÷³Ì-IRMS²ğ£¬×Û×ÊÒì³£','','U');
+values(sfbase.vm_exception_rule$seq.nextval,'EXC_CONFRM_IRMS','template.normal.NORMAL_ACC_IRMS_CMS_UNINSTALL_WAIT','template.normal.NORMALZJ_COMMON_CANCEL','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿ë“ æŸ¬ì§ë„‹-IRMSë€”ï¼Œå±¥æ —å«©ë½','','U');
 
---´òÓ¡µ¥
-insert into sfbase.sf_template_conf a values('40000078',10001,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤µ¥');
-insert into sfbase.sf_template_conf a values('40000079',10002,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤µ¥');
-insert into sfbase.sf_template_conf a values('40000080',10003,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤µ¥');
-insert into sfbase.sf_template_conf a values('40000081',10004,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤µ¥');
-insert into sfbase.sf_template_conf a values('40000082',10005,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤µ¥');
-insert into sfbase.sf_template_conf a values('40000083',10006,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤µ¥');
-insert into sfbase.sf_template_conf a values('40000084',10007,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤µ¥');
+--ëŒ”ä¸¹ë°
+insert into sfbase.sf_template_conf a values('40000078',10001,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬ë°');
+insert into sfbase.sf_template_conf a values('40000079',10002,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬ë°');
+insert into sfbase.sf_template_conf a values('40000080',10003,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬ë°');
+insert into sfbase.sf_template_conf a values('40000081',10004,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬ë°');
+insert into sfbase.sf_template_conf a values('40000082',10005,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬ë°');
+insert into sfbase.sf_template_conf a values('40000083',10006,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬ë°');
+insert into sfbase.sf_template_conf a values('40000084',10007,'SH_GROUP_HSWJD_OUTLINE_PRINT','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬ë°');
 
-insert into sfbase.sf_template_conf a values('40000085',10001,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤È·ÈÏµ¥');
-insert into sfbase.sf_template_conf a values('40000086',10002,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤È·ÈÏµ¥');
-insert into sfbase.sf_template_conf a values('40000087',10003,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤È·ÈÏµ¥');
-insert into sfbase.sf_template_conf a values('40000088',10004,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤È·ÈÏµ¥');
-insert into sfbase.sf_template_conf a values('40000089',10005,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤È·ÈÏµ¥');
-insert into sfbase.sf_template_conf a values('40000090',10006,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤È·ÈÏµ¥');
-insert into sfbase.sf_template_conf a values('40000091',10007,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','¾Æµê°æÈÚºÏÊÜÀíÊ©¹¤È·ÈÏµ¥');
---´òÓ¡µ¥ÊôĞÔ
- insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','productName','productName','U','¾Æµê°æÈÚºÏ¿í´ø');
- insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_so_order_id','webtv_so_order_id','U','¾Æµê°æÈÚºÏ¿í´ø');
- insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_so_date','webtv_so_date','U','¾Æµê°æÈÚºÏ¿í´ø');
- insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_order_id','webtv_order_id','U','¾Æµê°æÈÚºÏ¿í´ø');
- insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_task_id','webtv_task_id','U','¾Æµê°æÈÚºÏ¿í´ø');
- insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_task_name','webtv_task_name','U','¾Æµê°æÈÚºÏ¿í´ø');
- insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10002','CREATE_DATE','CREATE_DATE','U','¾Æµê°æÈÚºÏ¿í´ø');
- 
+insert into sfbase.sf_template_conf a values('40000085',10001,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬íš…í›°ë°');
+insert into sfbase.sf_template_conf a values('40000086',10002,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬íš…í›°ë°');
+insert into sfbase.sf_template_conf a values('40000087',10003,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬íš…í›°ë°');
+insert into sfbase.sf_template_conf a values('40000088',10004,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬íš…í›°ë°');
+insert into sfbase.sf_template_conf a values('40000089',10005,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬íš…í›°ë°');
+insert into sfbase.sf_template_conf a values('40000090',10006,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬íš…í›°ë°');
+insert into sfbase.sf_template_conf a values('40000091',10007,'SH_GROUP_HSWJD_OUTLINE_PRINT_2','com.ai.sfframe.sf.bomgmt.task.annex.impl.PrintParamImplCenter','getBaseInfoParam','','ì•„ë“¦ê²½íœ¨ë¶è‚ì¿å˜‰ë¬íš…í›°ë°');
+--ëŒ”ä¸¹ë°æ©„æ˜‘
+ insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','productName','productName','U','ì•„ë“¦ê²½íœ¨ë¶ìš±ë˜');
+ insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_so_order_id','webtv_so_order_id','U','ì•„ë“¦ê²½íœ¨ë¶ìš±ë˜');
+ insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_so_date','webtv_so_date','U','ì•„ë“¦ê²½íœ¨ë¶ìš±ë˜');
+ insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_order_id','webtv_order_id','U','ì•„ë“¦ê²½íœ¨ë¶ìš±ë˜');
+ insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_task_id','webtv_task_id','U','ì•„ë“¦ê²½íœ¨ë¶ìš±ë˜');
+ insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10003','webtv_task_name','webtv_task_name','U','ì•„ë“¦ê²½íœ¨ë¶ìš±ë˜');
+ insert into sfbase.sf_property_conf a values(sfbase.sf_property_conf$seq.nextval,'10002','CREATE_DATE','CREATE_DATE','U','ì•„ë“¦ê²½íœ¨ë¶ìš±ë˜');
+ ä¸­æ–‡ä¸­æ–‡ä¸­å»ºå››å“¦å•Š
  
